@@ -2,8 +2,7 @@
 
 ## Proyecto de Tipología y ciclo de vida de los datos de la UOC (ENTREGA PARCIAL)
 
-El CSV completo se está generando, debería acabar en una horas.
-Se ha añadido provisionalmente un fichero CSV reducido (*recogiendo_tomates_reducido.py*) con la información extraída de 32 películas.
+El fichero *recogiendo_tomates.csv* contiene el CSV generado.
 
 ## Integrantes:
 
@@ -15,7 +14,7 @@ EL fichero *prueba_tomates.py* contiene el código encargado de realizar el Web 
 
 ## Objetivo
 
-El objetivo de la práctica es recoger la información de todas las películas disponible en la web https://www.rottentomatoes.com/.
+El objetivo de la práctica es recoger la información de todas las películas disponibles en la web https://www.rottentomatoes.com/.
 
 ## Observaciones
 
