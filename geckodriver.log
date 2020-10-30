@@ -1,0 +1,547 @@
+1604058398378	geckodriver	INFO	Listening on 127.0.0.1:55241
+1604058399330	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofile0MSDMc"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604058401597	Marionette	INFO	Listening on port 55248
+1604058401965	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+1604058438569	Marionette	INFO	Stopped listening on port 55248
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604058989259	geckodriver	INFO	Listening on 127.0.0.1:56161
+1604058990230	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofileyTcncR"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604058992334	Marionette	INFO	Listening on port 56167
+1604058992372	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1604059892492	geckodriver	INFO	Listening on 127.0.0.1:57354
+1604059893471	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofilehps2ru"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604059895784	Marionette	INFO	Listening on port 57361
+1604059896099	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1604061432972	geckodriver	INFO	Listening on 127.0.0.1:59184
+1604061433948	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofileRHc1z2"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604061436152	Marionette	INFO	Listening on port 59190
+1604061436579	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1604061500637	geckodriver	INFO	Listening on 127.0.0.1:59385
+1604061501605	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofileGTSL9J"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604061503939	Marionette	INFO	Listening on port 59393
+1604061504249	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+1604061505633	Marionette	INFO	Stopped listening on port 59190
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1604061600432	geckodriver	INFO	Listening on 127.0.0.1:59772
+1604061601404	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofile1wsNmO"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604061603532	Marionette	INFO	Listening on port 59778
+1604061604044	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1604061699458	geckodriver	INFO	Listening on 127.0.0.1:60000
+1604061700431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofilegZDDGh"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604061702775	Marionette	INFO	Listening on port 60007
+1604061703065	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1604061759646	geckodriver	INFO	Listening on 127.0.0.1:60199
+1604061760601	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofileuPiVI4"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604061762936	Marionette	INFO	Listening on port 60205
+1604061763235	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1604062712478	geckodriver	INFO	Listening on 127.0.0.1:61455
+1604062713428	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofilePqboJQ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604062715705	Marionette	INFO	Listening on port 61461
+1604062716065	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1604062904341	geckodriver	INFO	Listening on 127.0.0.1:61841
+1604062905287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofile6gzSUe"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604062907567	Marionette	INFO	Listening on port 61849
+1604062907917	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1604063713422	geckodriver	INFO	Listening on 127.0.0.1:63049
+1604063714371	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofile4uWQUO"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604063716646	Marionette	INFO	Listening on port 63056
+1604063717008	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1604063756757	geckodriver	INFO	Listening on 127.0.0.1:63211
+1604063757726	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofileK2nrfI"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604063760020	Marionette	INFO	Listening on port 63218
+1604063760355	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1604064132241	geckodriver	INFO	Listening on 127.0.0.1:63897
+1604064133183	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofilehnyMvL"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604064135627	Marionette	INFO	Listening on port 63903
+1604064135814	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1604064318846	geckodriver	INFO	Listening on 127.0.0.1:64182
+1604064319775	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofileuEbFvf"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604064322097	Marionette	INFO	Listening on port 64188
+1604064322408	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1604064397971	geckodriver	INFO	Listening on 127.0.0.1:64570
+1604064398922	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofileADtwPf"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604064401306	Marionette	INFO	Listening on port 64579
+1604064401562	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1604064429773	geckodriver	INFO	Listening on 127.0.0.1:64748
+1604064430735	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofileo2680m"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604064433048	Marionette	INFO	Listening on port 64754
+1604064433370	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1604064478395	geckodriver	INFO	Listening on 127.0.0.1:64950
+1604064479355	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofileWplr7o"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604064481684	Marionette	INFO	Listening on port 64958
+1604064482005	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1604064959438	geckodriver	INFO	Listening on 127.0.0.1:49413
+1604064960374	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofileLMwJbE"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604064962750	Marionette	INFO	Listening on port 49419
+1604064963003	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+1604065277869	geckodriver	INFO	Listening on 127.0.0.1:49905
+1604065278806	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofile0xGMjA"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604065281107	Marionette	INFO	Listening on port 49912
+1604065281442	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+1604066058446	geckodriver	INFO	Listening on 127.0.0.1:50882
+1604066059379	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofileCa1eBR"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604066061684	Marionette	INFO	Listening on port 50889
+1604066062015	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+1604066113452	geckodriver	INFO	Listening on 127.0.0.1:51075
+1604066114413	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofile9ER3Ss"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604066116727	Marionette	INFO	Listening on port 51081
+1604066117044	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+1604067953708	geckodriver	INFO	Listening on 127.0.0.1:53142
+1604067954636	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofilerjyjKx"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604067956980	Marionette	INFO	Listening on port 53148
+1604067957288	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+1604068008939	geckodriver	INFO	Listening on 127.0.0.1:53424
+1604068009908	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofilexpZQA7"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604068012300	Marionette	INFO	Listening on port 53434
+1604068012543	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1604070396830	geckodriver	INFO	Listening on 127.0.0.1:56186
+1604070397770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofileT4CTPB"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604070400214	Marionette	INFO	Listening on port 56194
+1604070400399	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1604070805270	Marionette	INFO	Stopped listening on port 56167
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604070818815	Marionette	INFO	Stopped listening on port 57361
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604070829754	Marionette	INFO	Stopped listening on port 59393
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604070836728	Marionette	INFO	Stopped listening on port 59778
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604070846781	Marionette	INFO	Stopped listening on port 60007
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604070859627	Marionette	INFO	Stopped listening on port 60205
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+1604070873151	Marionette	INFO	Stopped listening on port 51081
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604071173494	Marionette	INFO	Stopped listening on port 61461
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604071191000	Marionette	INFO	Stopped listening on port 53434
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+1604072176999	Marionette	INFO	Stopped listening on port 53148
+[Parent 28240, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+1604072177162	Marionette	INFO	Stopped listening on port 64754
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604072177225	Marionette	INFO	Stopped listening on port 61849
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1604072177289	Marionette	INFO	Stopped listening on port 63056
+1604072177292	Marionette	INFO	Stopped listening on port 64188
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1604072177311	Marionette	INFO	Stopped listening on port 63218
+1604072177361	Marionette	INFO	Stopped listening on port 63903
+1604072177363	Marionette	INFO	Stopped listening on port 64958
+1604072177368	Marionette	INFO	Stopped listening on port 64579
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604072177533	Marionette	INFO	Stopped listening on port 50889
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604072178246	Marionette	INFO	Stopped listening on port 49419
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604072178365	Marionette	INFO	Stopped listening on port 56194
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604072178557	Marionette	INFO	Stopped listening on port 49912
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604072365056	geckodriver	INFO	Listening on 127.0.0.1:58642
+1604072366045	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofilek7ahkz"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604072368162	Marionette	INFO	Listening on port 58648
+1604072368674	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1604072410362	geckodriver	INFO	Listening on 127.0.0.1:58845
+1604072411315	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofilexGZXly"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604072413459	Marionette	INFO	Listening on port 58851
+1604072413944	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+1604072679407	Marionette	INFO	Stopped listening on port 58851
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604072681352	Marionette	INFO	Stopped listening on port 58648
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604072684618	geckodriver	INFO	Listening on 127.0.0.1:59256
+1604072685586	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofilej1HAuN"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604072687732	Marionette	INFO	Listening on port 59263
+1604072688211	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+1604073358302	Marionette	INFO	Stopped listening on port 59263
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604073360014	geckodriver	INFO	Listening on 127.0.0.1:59886
+1604073360983	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofilekRxyC1"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604073363190	Marionette	INFO	Listening on port 59892
+1604073363616	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+1604074424622	Marionette	INFO	Stopped listening on port 59892
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604074435425	geckodriver	INFO	Listening on 127.0.0.1:61136
+1604074436391	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofileD9ZNdp"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604074438542	Marionette	INFO	Listening on port 61142
+1604074439026	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1604076030381	geckodriver	INFO	Listening on 127.0.0.1:63078
+1604076031341	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofilejbu07c"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604076033614	Marionette	INFO	Listening on port 63090
+1604076033980	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1604077416593	geckodriver	INFO	Listening on 127.0.0.1:64726
+1604077417556	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "C:\\Users\\rafae\\AppData\\Local\\Temp\\rust_mozprofileye0WHY"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604077419831	Marionette	INFO	Listening on port 64732
+1604077420197	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604077422992	Marionette	INFO	Stopped listening on port 63090
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1604077423577	Marionette	INFO	Stopped listening on port 61142
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://staticv2-4.rottentomatoes.com/static/dist/common-pure-react.js, line 22371: unreachable code after return statement
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min.js, line 22: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
