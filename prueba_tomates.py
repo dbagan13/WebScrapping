@@ -31,10 +31,13 @@ show_more_button =  driver.find_element_by_xpath('//button[@class="btn btn-secon
 current_shown_movies = initial_shown_movies
 time_sleep = 0.001
 exp = 0.5
+<<<<<<< HEAD
 
 # While to show up all the movies. The While loop does a 
 # scroll to the "Show more" button and push it until 
 # no more movies apprear 
+=======
+>>>>>>> 1a357107aaee6efcd8257a61343210b4d4073c88
 while current_shown_movies < total_movies:
     time.sleep(time_sleep)
     try:
@@ -48,18 +51,28 @@ while current_shown_movies < total_movies:
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             ActionChains(driver).move_to_element(show_more_button).perform()
         except:
+<<<<<<< HEAD
             print("All movies are loaded")
+=======
+            print("TDOAS LAS PELIS MOSTRADAS")
+>>>>>>> 1a357107aaee6efcd8257a61343210b4d4073c88
             break
         time_sleep = time_sleep**exp
     print(current_shown_movies)
 
+<<<<<<< HEAD
 # Creating a two three list:
 # - movie_name: contain the selenium objects with the Movies Titles
 # - movies: contain the selenium objects with the movies info
 # - movies_list: empty list to be fulfilled with each movie info 
+=======
+
+
+>>>>>>> 1a357107aaee6efcd8257a61343210b4d4073c88
 movie_names = driver.find_elements_by_xpath('//h3[@class="movieTitle"]')
 movies = driver.find_elements_by_xpath('//div[@class="movie_info"]//a')
 movies_list = []
+print(len(movies))
 
 print(len(movies))
 
@@ -93,6 +106,7 @@ for i in range(len(movies)):
         print(str(e))
         continue
 
+    print(movie_dict)
     movies_list.append(movie_dict)
 
 # Creating dataset and CSV file
