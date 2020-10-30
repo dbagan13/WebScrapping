@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import pandas as pd
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver import ActionChains
 from bs4 import BeautifulSoup
 import requests
 import sys
@@ -18,6 +19,7 @@ url = "https://www.rottentomatoes.com/browse/dvd-streaming-all/"
 
 driver.get(url)
 
+#Obtenemos el número total de películas
 spans = driver.find_elements_by_xpath('//span')
 total_movies = 0
 for span in spans:
@@ -26,9 +28,9 @@ for span in spans:
         initial_shown_movies = int(span.text.split(" ")[1])
         show_more_clicks = total_movies//initial_shown_movies
 
-from selenium.webdriver import ActionChains
 show_more_button =  driver.find_element_by_xpath('//button[@class="btn btn-secondary-rt mb-load-btn"]')
 
+#Hacemos clic en el botón de Show more hasta que se muestren todas las películas
 current_shown_movies = initial_shown_movies
 time_sleep = 0.001
 exp = 0.5
@@ -49,21 +51,20 @@ while current_shown_movies < total_movies:
         time_sleep = time_sleep**exp
     print(current_shown_movies)
 
-
+#Obtenemos la lista de películas y nombres
 movie_names = driver.find_elements_by_xpath('//h3[@class="movieTitle"]')
 movies = driver.find_elements_by_xpath('//div[@class="movie_info"]//a')
 movies_list = []
 
-for movie in movies:
-    print(movie.get_attribute('href'))
-
+#Obtenemos la info de cada película y la guardamos en una lista de diccionarios
 for i in range(len(movies)):
     movie = movies[i]
+    #Título
     movie_dict = {'Title':movie_names[i].text}
     movie_url = movie.get_attribute('href')
     page_movie = requests.get(movie_url)
     soup = BeautifulSoup(page_movie.content, "html.parser")
-    #SCORES
+    #Puntuaciones
     tomatometer = soup.find("span", {"class": "mop-ratings-wrap__percentage"})
     if tomatometer != None:
         audience_score = tomatometer.find_next("span", {"class": "mop-ratings-wrap__percentage"})
@@ -75,7 +76,7 @@ for i in range(len(movies)):
     else: audience_score = "NaN"
     movie_dict['Tomatometer'] = tomatometer.replace('\n',"").replace(" ","")
     movie_dict['Audience score'] = audience_score.replace('\n',"").replace(" ","")
-
+    #Otra infotmación: género, director, fecha de estreno, duración
     info_items = soup.find_all("li", {"class": "meta-row clearfix"})
     for item in info_items:
         field = item.find(("div", {"class": "meta-value subtle"}))
