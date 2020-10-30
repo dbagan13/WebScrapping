@@ -17,7 +17,6 @@ driver = webdriver.Firefox(executable_path="./geckodriver", options=options)
 
 url = "https://www.rottentomatoes.com/browse/dvd-streaming-all/"
 
-
 driver.get(url)
 
 spans = driver.find_elements_by_xpath('//span')
@@ -26,27 +25,37 @@ for span in spans:
     if span.text.startswith("Showing"):
         total_movies = int(span.text.split(" ")[-1])
         initial_shown_movies = int(span.text.split(" ")[1])
-        show_more_clicks = total_movies/initial_shown_movies
+        show_more_clicks = total_movies//initial_shown_movies
 
 from selenium.webdriver import ActionChains
 show_more_button =  driver.find_element_by_xpath('//button[@class="btn btn-secondary-rt mb-load-btn"]')
 
 current_shown_movies = initial_shown_movies
+time_sleep = 0.001
+exp = 0.5
 while current_shown_movies < total_movies:
+    time.sleep(time_sleep)
     try:
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         ActionChains(driver).move_to_element(show_more_button).perform()
         ActionChains(driver).click(show_more_button).perform()
         current_shown_movies += initial_shown_movies
     except:
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        ActionChains(driver).move_to_element(show_more_button).perform()
+        try:
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            ActionChains(driver).move_to_element(show_more_button).perform()
+        except:
+            print("TDOAS LAS PELIS MOSTRADAS")
+            break
+        time_sleep = time_sleep**exp
     print(current_shown_movies)
+
 
 
 movie_names = driver.find_elements_by_xpath('//h3[@class="movieTitle"]')
 movies = driver.find_elements_by_xpath('//div[@class="movie_info"]//a')
 movies_list = []
+print(len(movies))
 
 
 for i in range(len(movies)):
@@ -71,6 +80,7 @@ for i in range(len(movies)):
         value = field.find_next().text.replace('\n',"").replace(" ","")
         movie_dict[field_name[:-1]] = value
 
+    print(movie_dict)
     movies_list.append(movie_dict)
 
 print(movies_list)
