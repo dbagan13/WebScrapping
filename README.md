@@ -2,7 +2,7 @@
 
 ## Proyecto de Tipología y ciclo de vida de los datos de la UOC (ENTREGA PARCIAL)
 
-El CSV completo se está generando, antes de las 00:00 debería estar generado.
+El CSV completo se está generando, debería acabar en una horas.
 Se ha añadido provisionalmente un fichero CSV reducido (*recogiendo_tomates_reducido.py*) con la información extraída de 32 películas.
 
 ## Integrantes:
