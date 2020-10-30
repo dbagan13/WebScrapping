@@ -5,3 +5,5 @@
 ## Integrantes:
 
 Daniel Bagan Martínez y Rafael García Henríquez
+
+El CSV se está generando, antes de las 00:00 estará.
