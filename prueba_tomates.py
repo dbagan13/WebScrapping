@@ -1,35 +1,38 @@
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-import pandas as pd
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver import ActionChains
-from bs4 import BeautifulSoup
 import requests
 import sys
 import time
+import pandas as pd
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver import ActionChains
+from bs4 import BeautifulSoup
+from random_user_agent.user_agent import UserAgent
+from random_user_agent.params import SoftwareName, OperatingSystem
 
-headers = {
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,\
-    */*;q=0.8",
-    "Accept-Encoding": "gzip, deflate, sdch, br",
-    "Accept-Language": "en-US,en;q=0.8",
-    "Cache-Control": "no-cache",
-    "dnt": "1",
-    "Pragma": "no-cache",
-    "Upgrade-Insecure-Requests": "1",
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/5\
-    37.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
-}
+# Creando un User-Agent aleatorio
+software_names = [SoftwareName.FIREFOX.value, SoftwareName.CHROME.value]
+operating_systems = [OperatingSystem.WINDOWS.value, 
+                     OperatingSystem.LINUX.value]
+    
+user_agent_rotator = UserAgent(software_names= software_names, 
+                     operating_systems= operating_systems,
+                     limit= 100)
+    
+user_agent = user_agent_rotator.get_random_user_agent()
+
+profile = webdriver.FirefoxProfile()
+profile.set_preference("general.useragent.override", f"{user_agent}")
 
 options = webdriver.FirefoxOptions()
 options.add_argument("--incognito")
-driver = webdriver.Firefox(executable_path="./geckodriver", options=options)
+driver = webdriver.Firefox(executable_path="./geckodriver", 
+                           firefox_profile=profile, options=options)
 
-#driver = webdriver.Chrome('.\chromedriver')
 
+# Get a la pagina Web
 url = "https://www.rottentomatoes.com/browse/dvd-streaming-all/"
 driver.get(url)
-
 time.sleep(2)
 
 #Obtenemos el número total de películas
@@ -70,7 +73,10 @@ movies = driver.find_elements_by_xpath('//div[@class="movie_info"]//a')
 movies_list = []
 
 #Obtenemos la info de cada película y la guardamos en una lista de diccionarios
-field_list = ["Title", "Tomatometer", "Audience score", "Rating", "Genre","Original Languaje", "Director", "Producer", "Writer", "Release Date (Theaters)","Release Date (Streaming)", "Runtime", "Production Co"]
+field_list = ["Title", "Tomatometer", "Audience score", "Rating", "Genre",
+              "Original Languaje", "Director", "Producer", "Writer", 
+              "Release Date (Theaters)","Release Date (Streaming)", 
+              "Runtime", "Production Co"]
 for i in range(len(movies)):
     movie = movies[i]
     #Título
