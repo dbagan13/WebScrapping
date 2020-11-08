@@ -1,12 +1,13 @@
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-import pandas as pd
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver import ActionChains
-from bs4 import BeautifulSoup
+
 import requests
 import sys
 import time
+import pandas as pd
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver import ActionChains
+from bs4 import BeautifulSoup
 
 
 options = webdriver.FirefoxOptions()
@@ -20,7 +21,7 @@ url = "https://www.rottentomatoes.com/browse/dvd-streaming-all/"
 driver.get(url)
 
 #Obtenemos el número total de películas
-spans = driver.find_elements_by_xpath('//span')
+pans = driver.find_elements_by_xpath('//span')
 total_movies = 0
 for span in spans:
     if span.text.startswith("Showing"):
@@ -91,4 +92,10 @@ print(movies_list)
 
 # Creating dataset and CSV file
 dataset = pd.DataFrame(movies_list)
-dataset.to_csv('recogiendo_tomates.csv')
+
+# Eliminando columnas innecesarias del dataset
+dataset.drop(columns=['Aspect Ratio', 'Sound Mix', 'Producer',
+                      'Box Office (Gross USA)', 'Rating']])
+
+# Convirtiendo dataset a Csv
+dataset.to_csv('recogiendo_tomates1.csv')
