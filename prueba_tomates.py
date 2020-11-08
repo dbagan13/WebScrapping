@@ -9,6 +9,18 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver import ActionChains
 from bs4 import BeautifulSoup
 
+headers = {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,\
+    */*;q=0.8",
+    "Accept-Encoding": "gzip, deflate, sdch, br",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Cache-Control": "no-cache",
+    "dnt": "1",
+    "Pragma": "no-cache",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/5\
+    37.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+}
 
 options = webdriver.FirefoxOptions()
 options.add_argument("--incognito")
@@ -63,7 +75,7 @@ for i in range(len(movies)):
     #Título
     movie_dict = {'Title':movie_names[i].text}
     movie_url = movie.get_attribute('href')
-    page_movie = requests.get(movie_url)
+    page_movie = requests.get(movie_url, headers=headers)
     soup = BeautifulSoup(page_movie.content, "html.parser")
     #Puntuaciones
     tomatometer = soup.find("span", {"class": "mop-ratings-wrap__percentage"})
