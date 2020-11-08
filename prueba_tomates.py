@@ -6,6 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver import ActionChains
+from selenium.webdriver.common.proxy import Proxy, ProxyType
 from bs4 import BeautifulSoup
 from random_user_agent.user_agent import UserAgent
 from random_user_agent.params import SoftwareName, OperatingSystem
@@ -20,18 +21,30 @@ user_agent_rotator = UserAgent(software_names= software_names,
                      limit= 100)
     
 user_agent = user_agent_rotator.get_random_user_agent()
-
 profile = webdriver.FirefoxProfile()
 profile.set_preference("general.useragent.override", f"{user_agent}")
+
+# Manejo de proxy
+PROXY = '50.17.139.35:3128'
+prox = Proxy()
+prox.proxy_type = ProxyType.MANUAL
+prox.autodetect = False
+capabilities = webdriver.DesiredCapabilities.FIREFOX
+prox.http_proxy = PROXY
+prox.ssl_proxy = PROXY
+prox.add_to_capabilities(capabilities)
+
 
 options = webdriver.FirefoxOptions()
 options.add_argument("--incognito")
 driver = webdriver.Firefox(executable_path="./geckodriver", 
-                           firefox_profile=profile, options=options)
+                           firefox_profile=profile,
+                           desired_capabilities= capabilities)
 
 
 # Get a la pagina Web
 url = "https://www.rottentomatoes.com/browse/dvd-streaming-all/"
+#url= 'https://www.showmyip.com/'
 driver.get(url)
 time.sleep(2)
 
