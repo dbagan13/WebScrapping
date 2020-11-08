@@ -1,13 +1,12 @@
-
-import requests
-import sys
-import time
-import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+import pandas as pd
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver import ActionChains
 from bs4 import BeautifulSoup
+import requests
+import sys
+import time
 
 headers = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,\
@@ -29,11 +28,12 @@ driver = webdriver.Firefox(executable_path="./geckodriver", options=options)
 #driver = webdriver.Chrome('.\chromedriver')
 
 url = "https://www.rottentomatoes.com/browse/dvd-streaming-all/"
-
 driver.get(url)
 
+time.sleep(2)
+
 #Obtenemos el número total de películas
-pans = driver.find_elements_by_xpath('//span')
+spans = driver.find_elements_by_xpath('//span')
 total_movies = 0
 for span in spans:
     if span.text.startswith("Showing"):
@@ -70,6 +70,7 @@ movies = driver.find_elements_by_xpath('//div[@class="movie_info"]//a')
 movies_list = []
 
 #Obtenemos la info de cada película y la guardamos en una lista de diccionarios
+field_list = ["Title", "Tomatometer", "Audience score", "Rating", "Genre","Original Languaje", "Director", "Producer", "Writer", "Release Date (Theaters)","Release Date (Streaming)", "Runtime", "Production Co"]
 for i in range(len(movies)):
     movie = movies[i]
     #Título
@@ -93,21 +94,18 @@ for i in range(len(movies)):
     info_items = soup.find_all("li", {"class": "meta-row clearfix"})
     for item in info_items:
         field = item.find(("div", {"class": "meta-value subtle"}))
-        field_name = field.text
-        value = field.find_next().text.replace('\n',"").replace(" ","")
-        movie_dict[field_name[:-1]] = value
+        field_name = field.text[:-1]
+        if field_name in field_list:
+            value = field.find_next().text.replace('\n',"").replace(" ","")
+            movie_dict[field_name] = value
+        else: print(field_name)
 
     print(movie_dict)
     movies_list.append(movie_dict)
 
 print(movies_list)
 
-# Creating dataset and CSV file
+# Creamos el dataset y el fichero CSV
 dataset = pd.DataFrame(movies_list)
+dataset.to_csv('recogiendo_tomates.csv')
 
-# Eliminando columnas innecesarias del dataset
-dataset.drop(columns=['Aspect Ratio', 'Sound Mix', 'Producer',
-                      'Box Office (Gross USA)', 'Rating']])
-
-# Convirtiendo dataset a Csv
-dataset.to_csv('recogiendo_tomates1.csv')
