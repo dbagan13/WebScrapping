@@ -31,10 +31,12 @@ El objetivo de la práctica es recoger la información de todas las películas d
 - pandas
 - requests
 - time
+- random_user_agent
 
 ## Funcionamento
 
 - Creación de un *WebDriver* con **Selenium**.
+- Se genera un User-Agent aleatorio.
 - Ingreso en driver de Firefox en la página web https://www.rottentomatoes.com/browse/dvd-streaming-all/, donde se muestran 32 películas.
 - Obtención del número de películas totales disponibles (el error en la página inutiliza este paso).
 - Localización del botón *Show more*.
