@@ -1,5 +1,5 @@
 
-![Alt text](./film_image.jpg "Rastreador de Peliculas")
+<p align="center"> ![Alt text](./film_image.jpg "Rastreador de Peliculas") </p>
 
 # WebScrapping
 
