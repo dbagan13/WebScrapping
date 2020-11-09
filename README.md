@@ -33,14 +33,15 @@ Daniel Bagan Martínez y Rafael García Henríquez
 
     **- Web_scraper_random_proxy.py:**  Código de **prueba** donde se trata implementar un User Agent y Proxy aleatorios
 
-    **Nota:** Los scripts que se encuentran en este directorio surgen como parte de una posible mejora al codigo ***/source_code/Web_scraper.py***.
+    **Nota:** Los scripts que se encuentran en este directorio surgen como parte de una posible mejora al codigo ***/source_code/Web_scraper.py***, con el objetivo de evitar posibles baneos. Se han probado exitosamente con un listado pequeño de películas, pero no se han utilizado para la implementación final.
 
-    Los inconvenientes que se tienen por los momentos con esta implementación son:
+    Los inconvenientes acontecidos a partir de esta implementación son:
 
     - Se utiliza una lista de proxies libres, por lo cual pueden estar muy congestionadas y ralentiza enormemente el proceso. 
     
     - Como causa de lo anterior, muchas peticiones son rechazadas o se obtiene Time Out, por lo cual se pueden dar caso en donde se realicen hasta 10 intentos antes de lograr una conexión satisfactoria.
-
+    
+    - Este problema se podría resolver mediante la compra de direcciones.
 
 ## Fichero a ejecutar
     /source_code/Web_scraper.py
