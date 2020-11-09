@@ -1,12 +1,13 @@
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-import pandas as pd
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver import ActionChains
-from bs4 import BeautifulSoup
 import requests
 import sys
 import time
+import pandas as pd
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver import ActionChains
+from bs4 import BeautifulSoup
+
 
 headers = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,\
@@ -24,8 +25,6 @@ headers = {
 options = webdriver.FirefoxOptions()
 options.add_argument("--incognito")
 driver = webdriver.Firefox(executable_path="./geckodriver", options=options)
-
-#driver = webdriver.Chrome('.\chromedriver')
 
 url = "https://www.rottentomatoes.com/browse/dvd-streaming-all/"
 driver.get(url)
@@ -70,7 +69,10 @@ movies = driver.find_elements_by_xpath('//div[@class="movie_info"]//a')
 movies_list = []
 
 #Obtenemos la info de cada película y la guardamos en una lista de diccionarios
-field_list = ["Title", "Tomatometer", "Audience score", "Rating", "Genre","Original Languaje", "Director", "Producer", "Writer", "Release Date (Theaters)","Release Date (Streaming)", "Runtime", "Production Co"]
+field_list = ["Title", "Tomatometer", "Audience score", "Rating", "Genre",
+                "Original Languaje", "Director", "Producer",
+               "Writer", "Release Date (Theaters)","Release Date (Streaming)",
+                "Runtime", "Production Co"]
 for i in range(len(movies)):
     movie = movies[i]
     #Título
