@@ -19,8 +19,8 @@ url = "https://www.rottentomatoes.com/browse/dvd-streaming-all/"
 # En caso contrario, se captura el error y se cierra el driver para volver a 
 # intentarlo.
 while True:
+    driver = User_Agent_and_Proxy()
     try:
-        driver = User_Agent_and_Proxy()
         driver.get(url)
     except Exception as e:
         print (e.args)
@@ -107,5 +107,5 @@ print(movies_list)
 
 # Creamos el dataset y el fichero CSV
 dataset = pd.DataFrame(movies_list)
-dataset.to_csv('./csv/recogiendo_tomates.csv')
+dataset.to_csv('./test_random_proxy/recogiendo_tomates_random_proxy.csv')
 
