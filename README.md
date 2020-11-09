@@ -32,6 +32,9 @@ Daniel Bagan Martínez y Rafael García Henríquez
     **- Web_driver_generator.py:**  Código de las funciones implementadas para la generación de User Agent y Proxy aleatorios.
 
     **- Web_scraper_random_proxy.py:**  Código de **prueba** donde se trata implementar un User Agent y Proxy aleatorios
+    
+    **- recogiendo_tomates_random_proxy.csv:** Fichero CSV generado con la ejecución del script *Web_scraper_random_proxy.py:* que contiene las 32 primeras películas mostradas en la página.
+
 
     **Nota:** Los scripts que se encuentran en este directorio surgen como parte de una posible mejora al codigo ***/source_code/Web_scraper.py***, con el objetivo de evitar posibles baneos. Se han probado exitosamente con un listado pequeño de películas, pero no se han utilizado para la implementación final.
 
