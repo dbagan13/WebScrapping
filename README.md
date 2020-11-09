@@ -43,7 +43,7 @@ Daniel Bagan Martínez y Rafael García Henríquez
 
 
 ## Fichero a ejecutar
-    ***/source_code/Web_scraper.py***
+    /source_code/Web_scraper.py
 
 ## DOI dataset
 Este dataset ha sido publicado en Zenodo con el DOI:  10.5281/zenodo.4265051 y puede ser visualizado en el siguiente link: https://zenodo.org/record/4265051#.X6mORGgReUk
