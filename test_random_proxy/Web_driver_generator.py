@@ -29,7 +29,7 @@ def User_Agent_and_Proxy ():
     profile.set_preference("general.useragent.override", f"{user_agent}")
 
     # Configuración del navegador
-    PROXY = read_proxies('./txt/proxy_list.txt')
+    PROXY = read_proxies('./proxy_list.txt')
 
     webdriver.DesiredCapabilities.FIREFOX['proxy'] ={
         "httpProxy":PROXY,
