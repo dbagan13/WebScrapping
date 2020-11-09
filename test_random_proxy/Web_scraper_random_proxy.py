@@ -6,47 +6,27 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver import ActionChains
-from selenium.webdriver.common.proxy import Proxy, ProxyType
 from bs4 import BeautifulSoup
-from random_user_agent.user_agent import UserAgent
-from random_user_agent.params import SoftwareName, OperatingSystem
-
-# Creando un User-Agent aleatorio
-software_names = [SoftwareName.FIREFOX.value, SoftwareName.CHROME.value]
-operating_systems = [OperatingSystem.WINDOWS.value, 
-                     OperatingSystem.LINUX.value]
-    
-user_agent_rotator = UserAgent(software_names= software_names, 
-                     operating_systems= operating_systems,
-                     limit= 100)
-    
-user_agent = user_agent_rotator.get_random_user_agent()
-profile = webdriver.FirefoxProfile()
-profile.set_preference("general.useragent.override", f"{user_agent}")
-
-# Manejo de proxy
-PROXY = '50.17.139.35:3128'
-prox = Proxy()
-prox.proxy_type = ProxyType.MANUAL
-prox.autodetect = False
-capabilities = webdriver.DesiredCapabilities.FIREFOX
-prox.http_proxy = PROXY
-prox.ssl_proxy = PROXY
-prox.add_to_capabilities(capabilities)
-
-
-options = webdriver.FirefoxOptions()
-options.add_argument("--incognito")
-driver = webdriver.Firefox(executable_path="./geckodriver", 
-                           firefox_profile=profile,
-                           desired_capabilities= capabilities)
+from Web_driver_generator import User_Agent_and_Proxy
 
 
 # Get a la pagina Web
 url = "https://www.rottentomatoes.com/browse/dvd-streaming-all/"
-#url= 'https://www.showmyip.com/'
-driver.get(url)
-time.sleep(2)
+
+# Creando el Web driver con User Agent y Proxy aleatorio
+# Se mantiene la condición del While hasta que, de forma aleatoria, se
+# seleccione un User Agent y Proxy adecuados y la pagina Web cargue correctamente
+# En caso contrario, se captura el error y se cierra el driver para volver a 
+# intentarlo.
+while True:
+    try:
+        driver = User_Agent_and_Proxy()
+        driver.get(url)
+    except Exception as e:
+        print (e.args)
+        driver.close()
+    else:
+        break
 
 #Obtenemos el número total de películas
 spans = driver.find_elements_by_xpath('//span')
@@ -90,12 +70,13 @@ field_list = ["Title", "Tomatometer", "Audience score", "Rating", "Genre",
               "Original Languaje", "Director", "Producer", "Writer", 
               "Release Date (Theaters)","Release Date (Streaming)", 
               "Runtime", "Production Co"]
+
 for i in range(len(movies)):
     movie = movies[i]
     #Título
     movie_dict = {'Title':movie_names[i].text}
     movie_url = movie.get_attribute('href')
-    page_movie = requests.get(movie_url, headers=headers)
+    page_movie = requests.get(movie_url)
     soup = BeautifulSoup(page_movie.content, "html.parser")
     #Puntuaciones
     tomatometer = soup.find("span", {"class": "mop-ratings-wrap__percentage"})
@@ -126,5 +107,5 @@ print(movies_list)
 
 # Creamos el dataset y el fichero CSV
 dataset = pd.DataFrame(movies_list)
-dataset.to_csv('recogiendo_tomates.csv')
+dataset.to_csv('./csv/recogiendo_tomates.csv')
 
