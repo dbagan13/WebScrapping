@@ -18,12 +18,9 @@ Daniel Bagan Martínez y Rafael García Henríquez
 - ### Directorio drivers
     geckodriver.exe
 
-- ### Directorio img
-    film_image.jpg : imagen de portado del README.md
-
-- ### Directorio pdf
+- ### Directorio memoria
     - respuestas_practica.pdf:  documento con las respuestas a las preguntas planteadas en el enunciado de la práctica
-    
+    - film_image.jpg : imagen de portado del README.md
 
 - ### Directorio source_code
     Web_driver_generator.py: código de las funciones implementadas para la generación de User Agent y Proxy aleatorios.
