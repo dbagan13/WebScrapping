@@ -1,7 +1,6 @@
 
-<href align="center"> 
-    ![Alt text](./film_image.jpg "Rastreador de Peliculas") 
-</href>
+
+                                     ![Alt text](./film_image.jpg "Rastreador de Peliculas") 
 
 # WebScrapping
 
